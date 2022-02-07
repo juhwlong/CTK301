@@ -1,0 +1,36 @@
+.whitetext{
+   color: #ffffff;
+}
+.lightblueback{
+  background-color: #00ffff
+}
+.bluetext{
+  color: #0000ff;
+}
+.orange{
+  color: #ff6600;
+}
+.yellowback{
+  background-color: #ffff00;
+}
+.redtext{
+  color:#ff0000;
+}
+.orange{
+  color: #ff5500
+}
+.greenback{
+  background-color: #00ff33
+}
+.twodif{
+  color: #ffff00;
+  background-color: #00ff00;
+}
+ a{
+color: #00ff00;
+text-decoration: none;
+}
+a:hover{
+  color: #ff0000;
+  text-decoration: underline;
+}
