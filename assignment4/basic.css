@@ -1,0 +1,28 @@
+.sans{
+  font-family: sans-serif;
+}
+.center{
+  text-align: center;
+}
+.redtext{
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+.bluetext{
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+.img{
+  border: 5px solid black;
+
+  padding: 3px;
+  background-color: #ffffff;
+}
+body {
+  background-image: url(images/back.jpg);
+}
+.justify{
+  text-align: justify;
+}
