@@ -1,0 +1,26 @@
+.header{
+  background-color: #ff0000;
+}
+a:link{
+  color: Red;
+}
+a:visited{
+  color: Green;
+}
+a:hover{
+  color: #ffff00;
+}
+span{
+  font-weight: bold;
+  color: darkred;
+  background-color: yellow;
+}
+#div{
+  background-color: pink;
+}
+.redtext{
+  color: red;
+}
+.bluetext{
+  color: blue;
+}
