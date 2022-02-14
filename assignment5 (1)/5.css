@@ -1,0 +1,63 @@
+.h1{
+  font-family: helvetica;
+  font-weight: normal;
+  border: 1px solid #000000;
+  padding: 20px;
+  background-color: white;
+}
+main{
+  border: 1px solid #000000;
+  padding: 10px;
+  background-color: white;
+  margin-top: 20px
+}
+.h2{
+  font-family: helvetica;
+  border-bottom: 3px solid black;
+  padding-bottom: 10px
+}
+.just{
+  text-align: justify;
+}
+.foot{
+  font-weight: bold;
+  font-family: Verdana;
+  font-style: italic;
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+  border: 3px solid white;
+}
+.just a:hover{
+  text-decoration: underline;
+  color: red;
+}
+.just a {
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+nav li{
+  width: 200px;
+  margin-right: 10px;
+  padding: 0px;
+  display: inline-block;
+}
+nav li a{
+  border: 1px solid #000000;
+  text-decoration: none;
+  padding: 10px;
+  background-color: darkblue;
+  color: white;
+  display: block;
+}
+nav li a:hover{
+  background-color: blue;
+}
+body{
+  background-image: url(a5bg.png);
+}
