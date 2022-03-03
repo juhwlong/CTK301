@@ -1,0 +1,141 @@
+#wrapper{
+  margin: 1em auto;
+  width: 960px;
+  border: 4px solid blue;
+  background-color: white;
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+body{
+  background-color: grey;
+}
+h1 {
+  background-image: linear-gradient(to right top, #106efc, #165ae2, #1646c8, #1333af, #0c2096);
+  padding: 40px;
+  margin: 0px;
+  grid-column: span 4;
+}
+h1 a{
+  color: white;
+  font-family: helvetica;
+  text-decoration: none;
+}
+h1 a:hover{
+  color: red;
+}
+nav{
+  grid-column: span 4;
+  background-image: linear-gradient(to top, #106efb, #1357e4, #163fcc, #1827b4, #18059c);
+}
+nav ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: inline-block;
+}
+nav ul li{
+  margin: 0px;
+  display: inline-block;
+  width: 240px;
+  border-right:  6px solid blue;
+}
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(to top, #106efb, #1357e4, #163fcc, #1827b4, #18059c);
+  padding: 10px;
+  font-family: helvetica;
+}
+nav ul li a:hover{
+background-image: linear-gradient(to bottom, #106efb, #1357e4, #163fcc, #1827b4, #18059c);
+padding: 10px;
+}
+main{
+  grid-column: span 4;
+  margin: 10px;
+}
+.line{
+  border-bottom: 3px solid #44A4ED;
+  color: #44A4ED;
+  font-family: helvetica;
+  font-weight: normal;
+}
+main p{
+  text-align: justify;
+  font-family: Georgia;
+  font-weight: bold;
+}
+.lip{
+  border-bottom: 3px solid #44A4ED;
+  grid-column: span 4;
+  margin: 10px;
+  color: #44A4ED;
+  font-weight: normal;
+  font-family: helvetica;
+}
+.img{
+  float:left;
+  grid-column: span 1;
+  border: 4px solid blue;
+  margin: 10px;
+}
+.text{
+  grid-column: span 4;
+  margin: 10px;
+}
+.text a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+.text a:hover{
+  color: green;
+  text-decoration: underline;
+}
+footer{
+  background-color: red;
+  grid-column: span 4;
+  padding: 10px;
+  margin: 0px;
+  border-top: 4px solid blue;
+}
+.img2{
+  float: right;
+  border: 4px solid blue;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.text2{
+  grid-column: span 4;
+  margin: 10px;
+  margin-top: 0px;
+}
+.text2 a{
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+.text2 a:hover{
+  color: green;
+  text-decoration: underline;
+}
+.line2{
+  border-bottom: 3px solid #44A4ED;
+  color: #44A4ED;
+  margin-bottom: 0px;
+  font-family: helvetica;
+  font-weight: normal;
+}
+.img3{
+  border: 4px solid blue;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+.img4{
+  border: 4px solid blue;
+  margin-right: 30px;
+}
+.img5{
+  border: 4px solid blue;
+}
