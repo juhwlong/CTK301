@@ -1,0 +1,48 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+header{
+  grid-column: span 10;
+}
+h1{
+  color: white;
+  font-family: sans-serif;
+}
+.img{
+  border: solid 3px black;
+  width: 150px;
+}
+nav{
+  grid-column: span 2;
+}
+nav li{
+  display: block;
+  margin-bottom: 24px;
+}
+nav li a{
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+nav li a:hover{
+  font-weight: bolder;
+}
+main{
+  text-align: center;
+  grid-column: span 12;
+}
+main p{
+  color: white;
+  font-family: sans-serif;
+}
