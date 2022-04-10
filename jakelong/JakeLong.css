@@ -1,5 +1,6 @@
 body {
-  background-color: #999999;
+  background-color: black;
+  font-family: 'Oswald', sans-serif;
 }
 
 #wrapper {
@@ -17,11 +18,12 @@ header{
 }
 h1{
   color: white;
-  font-family: sans-serif;
 }
 .img{
   border: solid 3px black;
   width: 150px;
+  border-radius: 80px;
+  margin-top: 0px;
 }
 nav{
   grid-column: span 2;
@@ -33,10 +35,9 @@ nav li{
 nav li a{
   color: white;
   text-decoration: none;
-  font-family: sans-serif;
 }
 nav li a:hover{
-  font-weight: bolder;
+  font-weight: bold;
 }
 main{
   text-align: center;
@@ -44,5 +45,4 @@ main{
 }
 main p{
   color: white;
-  font-family: sans-serif;
 }
