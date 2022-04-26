@@ -2,7 +2,6 @@ body {
   background-color: black;
   font-family: 'Oswald', sans-serif;
 }
-
 #wrapper {
   margin: 24px auto;
   width: 1200px;
@@ -12,6 +11,7 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
+  background-image: url(back2.png);
 }
 header{
   grid-column: span 10;
@@ -84,14 +84,22 @@ h3{
 .about{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  text-align: left;
+  text-align: center;
 }
 .about h1{
   grid-column: span 12;
 }
 .about p{
-  grid-column: span 4;
-  border: solid grey 3px;
+  grid-column: span 6;
+  border: solid grey 1px;
   background-color: grey;
   border-radius: 15px;
+  padding: 3px;
+  margin-top: 0px;
+}
+.pic{
+  width: 300px;
+  border-radius: 15px;
+  float: left;
+  margin-left: 300px;
 }
